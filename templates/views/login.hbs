@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    {{>header}}
+</head>
+<body>
+    {{>navbar}}
+    <div class="container register">
+                <div class="row">
+                    <div class="col-md-3 register-left">
+                        <img src="https://image.ibb.co/n7oTvU/logo_white.png" alt=""/>
+                        <h3>Welcome</h3>
+                        <p>You can earn money through Amazon Web Services</p>
+                        
+                    </div>
+                    
+                    <div class="col-md-9 register-right">
+                        <ul class="nav nav-tabs nav-justified" id="myTab" role="tablist">
+                           
+                            
+                        </ul>
+                       
+   
+    
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6 col-lg-9 mx-auto">
+               <h3 class="register-heading"> Login Form</h3>
+
+              <!-- Sign In Form -->
+              <form action="/login" method="POST">
+                 <div class="row register-form">
+                <div class="col-md-11">
+                 <div class="form-group">
+
+                  <input type="email" class="form-control"  placeholder="email" required name="email">
+                 </div>
+            
+                <div class="form-group">
+               
+                  <input type="password" class="form-control" placeholder="Password" required name="password">
+                  </div>
+                 <div class="form-check mb-3">
+                  <input class="form-check-input" type="checkbox" value="" id="rememberPasswordCheck">
+                  <label class="form-check-label" for="rememberPasswordCheck">
+                    Remember password
+                  </label>
+                </div>
+                  
+                <button type="submit" class="btn-Register"> Login </button> 
+               
+                  
+                 
+                 
+                </div>
+                 </div>
+              </form>
+            </div>
+          </div>
+        </div>
+        
+                    </div>
+  </div>
+</div>
+
+{{>footer}}
+</body>
+</html>

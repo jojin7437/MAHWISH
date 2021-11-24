@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    {{>header}}
+</head>
+<body>
+   {{>navbar}} 
+  <div class="container header">
+   <div class="row">
+          <div class="col-md-10  col-12 mx-auto">
+              <nav class="navbar navbar-light bg-light justify-content-between">
+  <a class="navbar-brand">Notice Board</a>
+  
+     
+  <form class="form-inline" >
+    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+    <button type="submit"><i class="fa fa-search"></i></button>
+  </form>
+</nav>
+            
+                    <div class="table-header-list">
+                        <table class="table table-centered table-nowrap">
+                        
+  
+
+                          <!--  <h2 style="color:blue;text-align:left;padding-top: 35px;padding-bottom:5px;"> Notice Board</h2>
+                            <input type="text" placeholder="Search.." name="search">
+      <button type="submit"><i class="fa fa-search"></i></button> -->
+                            <thead>
+                                <tr>
+                                    <th scope="col">No</th>
+                                    <th scope="col">Title</th>
+                                    <th scope="col">Writer</th>
+                                    <th scope="col">date</th>
+                                    <th scope="col">View</th>
+                                    
+                                    
+                                </tr>
+                            </thead>
+                            <tbody>
+                                 <tr>
+                                    <th scope="row">1</th>
+                                    <td><a href="userfile">Amazon Services</a></td>
+                                    <td> Mahwish</td>
+                                    <td>02/5/2019</td>
+                                    <td>2</td>
+
+                                    </tr>
+                                    <tr>
+                                    <th scope="row">2</th>
+                                   <td><a href="userfile">Amazon Services</a></td>
+                                    <td> Mahwish</td>
+                                    <td>02/5/2020</td>
+                                    <td>3</td>
+
+                                    </tr>
+                                    <tr>
+                                    <th scope="row">3</th>
+                                   <td><a href="userfile">Amazon Services</a></td>
+                                    <td> Mahwish</td>
+                                    <td>02/5/2021</td>
+                                    <td>4</td>
+
+                                    </tr>
+                                    <tr>
+                                    <th scope="row">4</th>
+                                    <td><a href="userfile">Amazon Services</a></td>
+                                    <td> Mahwish</td>
+                                    <td>02/5/2019</td>
+                                    <td>2</td>
+
+                                    </tr>
+                                    <tr>
+                                    <th scope="row">5</th>
+                                   <td><a href="userfile">Amazon Services</a></td>
+                                    <td> Mahwish</td>
+                                    <td>02/5/2018</td>
+                                    <td>2</td>
+
+                                    </tr>
+                                    <tr>
+                                    <th scope="row">6</th>
+                                     <td><a href="userfile">Amazon Services</a></td>
+                                    <td> Mahwish</td>
+                                    <td>02/8/2020</td>
+                                    <td>2</td>
+
+                                    </tr>
+                                    <tr>
+                                    <th scope="row">7</th>
+                                     <td><a href="userfile">Amazon Services</a></td>
+                                    <td> Mahwish</td>
+                                    <td>02/5/2019</td>
+                                    <td>2</td>
+
+                                    </tr>
+                                    <tr>
+                                    <th scope="row">8</th>
+                                     <td><a href="userfile">Amazon Services</a></td>
+                                    <td> Mahwish</td>
+                                    <td>02/5/2019</td>
+                                    <td>2</td>
+
+                                    </tr>
+                                    <tr>
+                                    <th scope="row">9</th>
+                                     <td><a href="userfile">Amazon Services</a></td>
+                                    <td> Mahwish</td>
+                                    <td>02/5/2019</td>
+                                    <td>2</td>
+
+                                    </tr>
+                                    <tr>
+                                    <th scope="row">10</th>
+                                     <td><a href="userfile">Amazon Services</a></td>
+                                    <td> Mahwish</td>
+                                    <td>02/5/2019</td>
+                                    <td>2</td>
+
+                                    </tr>
+                                    <tr>
+                                    <th scope="row">11</th>
+                                     <td><a href="userfile">Amazon Services</a></td>
+                                    <td> Mahwish</td>
+                                    <td>02/5/2019</td>
+                                    <td>2</td>
+
+                                    </tr>
+                            </tbody>
+                            </table>
+                              </div>
+                               <div class="list">
+                        <ul class="pagination justify-content-center mb-0">
+                            <li class="page-item ">
+                                <a class="page-link" href="noticeb" tabindex="-1" aria-disabled="true">Previous</a>
+                            </li>
+                            <li class="page-item"><a class="page-link" href="noticeb1">1</a></li>
+                            <li class="page-item "><a class="page-link" href="noticeb2">2</a></li>
+                            <li class="page-item"><a class="page-link" href="noticeb3">3</a></li>
+                            <li class="page-item">
+                                <a class="page-link" href="noticebnext">Next</a>
+                            </li>
+                        </ul>
+                    </div>
+                           
+                              
+               <button onclick="location.href='upload'" class="btn-header1" >
+ Write
+</button>
+     <!-- <button onclick="location.href='update'" class="btn-header2" >
+ Update
+</button>   
+<button onclick="location.href='delete'" class="btn-header2" >
+ delete
+</button> -->         
+           
+                </div>
+            </div>
+    </div>
+     {{>footer}}
+</body>
+</html>

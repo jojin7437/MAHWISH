@@ -1,0 +1,81 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+  
+   {{>header}}
+ </head>
+ <body>
+  {{>navbar}}
+<div class="container register">
+                <div class="row">
+                    <div class="col-md-3 register-left">
+                        <img src="https://image.ibb.co/n7oTvU/logo_white.png" alt=""/>
+                        <h3>Welcome</h3>
+                        <p>You can earn money through Amazon Web Services</p>
+                        
+                    </div>
+                    
+                    <div class="col-md-9 register-right">
+                       
+                        
+                                <h3 class="register-heading"> Registration Form</h3>
+
+         <form action="/registration" method="POST">
+                                <div class="row register-form">
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <input type="text" class="form-control" placeholder="First Name *" value="" name="firstname"/>
+                                        </div>
+                                        <div class="form-group">
+                                            <input type="text" class="form-control" placeholder="Last Name *" value="" name="lastname"/>
+                                        </div>
+                                        <div class="form-group">
+                                            <input type="password" class="form-control" placeholder="Password *" value="" name="password"/>
+                                        </div>
+                                        <div class="form-group">
+                                            <input type="password" class="form-control"  placeholder="Confirm Password *" value="" name="confirmpassword"/>
+                                        </div>
+                                        <div class="form-group">
+                                            <div class="maxl">
+                                                <label class="radio inline"> 
+                                                    <input type="radio" name="gender" value="male" checked>
+                                                    <span> Male </span> 
+                                                </label>
+                                                <label class="radio inline"> 
+                                                    <input type="radio" name="gender" value="female">
+                                                    <span>Female </span> 
+                                                </label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <input type="email" class="form-control" placeholder="Email *" value="" name="email"/>
+                                        </div>
+                                        <div class="form-group">
+                                            <input type="text" minlength="11" maxlength="11" name="phone" class="form-control" placeholder="Phone *" value="" />
+                                        </div>
+                                        <div class="form-group">
+                                          
+                                             <input type="text" name="city" class="form-control" placeholder="City *" value="" />
+                                                
+                                        </div>
+                                        <div class="form-group">
+                                            <input type="text" class="form-control" placeholder="Address*" value="" name="address"/>
+                                        </div>
+                                        
+                                        <input type="submit" class="btnRegister"  value="Register"/>
+                                    </div>
+                                </div>
+                            </div>
+        </form>
+        </div>
+                                </div>
+                            </div>
+{{>footer}}
+    </body>
+</html>
